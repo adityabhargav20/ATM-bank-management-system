@@ -141,3 +141,51 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# Java Build & Class Files
+*.class
+bin/
+out/
+target/
+build/
+*.jar
+*.war
+*.ear
+
+# Database credentials, API keys, passwords, and Secrets
+*.key
+*.pem
+*.pfx
+*.p12
+*.jks
+credentials.json
+secrets.json
+db.properties
+database.properties
+config.properties
+*.secret
+*.secrets
+*.env*
+
+# Eclipse
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/
+
+# OS Files
+.DS_Store
+Thumbs.db
+Desktop.ini
